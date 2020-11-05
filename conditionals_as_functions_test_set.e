@@ -70,7 +70,6 @@ feature -- Test routines
 					else a
 				end
 				-- the above is very safe
-
 		end
 
 feature {NONE} -- Test Support
