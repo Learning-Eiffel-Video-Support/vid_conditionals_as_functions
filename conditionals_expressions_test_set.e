@@ -1,11 +1,21 @@
 note
 	description: "[
-		Tests demonstrating if-then and inspect as functions
+		Conditional structures used as expressions.
 	]"
 	testing: "type/manual"
 
+			-- Hover and click open!
+	EIS: "name=try", "src=https://www.eiffel.com"
+	EIS: "name=buy", "src=https://account.eiffel.com/licenses/_/buy/"
+			-- Code commercial for less than 41 cents a day!
+
+	EiS: "name=other_demos", "src=https://github.com/Learning-Eiffel-Video-Support"
+
+	EIS: "name=video_demo", "src=https://youtu.be/4W5SN1d7pOc"
+	EIS: "name=learning_eiffel_channel", "src=https://www.youtube.com/playlist?list=PLf9JgTngKbj417KYiyb4iv88GYAlhN7FX"
+
 class
-	CONDITIONALS_AS_FUNCTIONS_TEST_SET
+	CONDITIONALS_EXPRESSIONS_TEST_SET
 
 inherit
 	EQA_TEST_SET
@@ -13,9 +23,9 @@ inherit
 feature -- Test routines
 
 	conditionals_as_functions_test
-			-- Testing if-then and inspect conditional structures as functions.
+			-- Testing if-then and inspect conditional structures as expressions.
 		note
-			testing:  "covers/{CONDITIONALS_AS_FUNCTIONS_TEST_SET}.condition_x",
+			testing:  "covers/{CONDITIONALS_EXPRESSIONS_TEST_SET}.condition_x",
 						"execution/isolated",
 						"execution/serial"
 		do
