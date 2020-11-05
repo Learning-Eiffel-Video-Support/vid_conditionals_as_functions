@@ -18,7 +18,7 @@ class
 	CONDITIONALS_EXPRESSIONS_TEST_SET
 
 inherit
-	EQA_TEST_SET
+	TEST_SET_SUPPORT
 
 feature -- Test routines
 
